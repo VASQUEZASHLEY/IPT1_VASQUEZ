@@ -1,0 +1,156 @@
+body {
+
+  background-color: rgb(120, 190, 192);
+  font-family: 'Courier New', Courier, monospace;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    margin-right: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav li {
+    margin-left: 35px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  nav a {
+    text-decoration: underline;
+    color: whitesmoke;
+  }
+
+.circle  {
+
+    width: 250px;
+    height: 250px; 
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 600px;
+    margin-top: 100px;
+    overflow: hidden;
+
+}
+
+.circle img {
+
+    width: 100%;
+    height: 100%;
+    display: block;
+ }
+
+ .line {
+
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+ }
+
+ .p1 {
+
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    
+ }
+
+ .hello h1 {
+  font-size: 75px;
+  margin-top: 150px;
+  margin-left: 120px;
+}
+
+.hello h2 {
+  font-size: 50px;
+  margin-left: 250px;
+  margin-top: -60px;
+}
+
+.hello h3 {
+  font-size: 75px;
+  margin-left: 75px;
+  margin-top: -40px;
+}
+
+.hello h4 {
+  font-size: 80px;
+  margin-left: 200px;
+  margin-top: -80px;
+}
+
+.hello p {
+  font-size: 20px;
+  margin-left: 400px;
+  font-style: italic;
+  margin-bottom: 600px;
+}
+
+.contact-info p {
+  margin-left: 900px;
+  margin-top: -1010px;  
+  text-decoration: none;
+  font-size: 15px;
+  
+}
+
+.line2 {
+
+  width: 18%;
+  height: 1px;
+  background-color: white;
+  margin-left: 900px;
+  margin-top: -10px;  
+
+}
+
+.social-links li {
+  margin-left: 895px;
+  margin-top: 25px;  
+  font-size: 18px;
+}
+
+.social-links img {
+  width: 3%;
+  height: 3%;
+
+}
+
+.newsletter h4 {
+  margin-left: 900px;
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.newsletter input {
+  margin-left: 900px;
+  width: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.newsletter button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+
+}
